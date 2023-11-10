@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+@reboot screen -dmS sfbot sh -c "/home/pi/sfgame/bot/start.sh" 2>&1
+@reboot screen -dmS sfconsole sh -c "/home/pi/sfgame/web/start.sh" 2>&1
